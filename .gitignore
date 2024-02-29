@@ -1,0 +1,88 @@
+# Ignore environment-specific files
+.env
+
+# Ignore configuration files for cloud providers
+*.aws
+*.azure
+*.gcp
+
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+*.tfplan
+
+# Ignore Ansible configuration files
+ansible.cfg
+
+# Ignore Packer build artifacts
+packer_cache/
+*.box
+
+# Ignore Vagrant configuration files
+Vagrantfile
+.vagrant/
+
+# Ignore CloudFormation templates
+*.template
+*.stack
+
+# Ignore Google Cloud Platform credentials
+*.json
+*.p12
+
+# Ignore Kubernetes configuration files
+kubeconfig
+
+# Ignore Helm charts and rendered templates
+*.helm
+charts/
+
+# Ignore serverless framework artifacts
+.serverless/
+
+# Ignore AWS SAM (Serverless Application Model) artifacts
+.sam/
+
+# Ignore AWS CDK (Cloud Development Kit) artifacts
+.cdk/
+
+# Ignore cloud provider SDK generated files
+node_modules/
+*.pyc
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore JetBrains IDE settings
+.idea/
+
+# Ignore Eclipse settings
+.classpath
+.project
+.settings/
+
+# Ignore NetBeans settings
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# Ignore Local binary file
+# (this is for example of building things related to cloud computing)
+build/
+
+# Ignore Windows
+Thumbs.db
+Desktop.ini
+
+# Ignore macOS
+.DS_Store
+
+# Ignore Vim swap files
+*.swp
+
+# Ignore Emacs backup files
+*~
